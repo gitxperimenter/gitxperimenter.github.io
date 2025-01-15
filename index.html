@@ -1,10 +1,23 @@
-html
 <!DOCTYPE html>
 <html>
 <head>
     <title>Your Name - Personal Website</title>
+<script type="text/Javascript">
+    function f1()
+        {
+            document.bgColor="orange"
+            window.setTimeout("f2()", 1200)
+        }
+    function f2()
+        {
+            document.bgColor="yellow"
+            window.setTimeout("f1()", 1200)
+        }
+</script>
 </head>
 <body>
-    <!-- Your content here -->
+<form name="ff">
+    <input type="button" onmouseover="f1()">
+</form>
 </body>
 </html>
