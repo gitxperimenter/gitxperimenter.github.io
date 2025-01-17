@@ -1,8 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- playful geometric composition -->
-  <rect x="4" y="4" width="24" height="24" rx="3" fill="#ffffff" stroke="#000000" stroke-width="2"/>
-  <circle cx="16" cy="12" r="8" fill="#ffffff" stroke="#000000" stroke-width="2"/>
-  <circle cx="13" cy="12" r="1.5" fill="#000000"/>
-  <circle cx="19" cy="12" r="1.5" fill="#000000"/>
-  <path d="M12 16 Q16 20, 20 16" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+  <!-- Outer frame -->
+  <rect x="4" y="4" width="20" height="20" fill="black"/>
+  <rect x="6" y="6" width="20" height="20" fill="white"/>
+  
+  <!-- Screen bezel -->
+  <rect x="8" y="8" width="16" height="16" fill="black"/>
+  <rect x="9" y="9" width="14" height="14" fill="white"/>
+  
+  <!-- Eyes - vertical rectangles -->
+  <rect x="12" y="12" width="2" height="4" fill="black"/>
+  <rect x="18" y="12" width="2" height="4" fill="black"/>
+  
+  <!-- Pixelated smile - made of straight lines -->
+  <rect x="12" y="18" width="8" height="1" fill="black"/>
+  <rect x="12" y="17" width="1" height="1" fill="black"/>
+  <rect x="19" y="17" width="1" height="1" fill="black"/>
 </svg>
